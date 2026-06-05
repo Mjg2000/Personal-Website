@@ -8,22 +8,41 @@
 </head>
 
 <body>
-    <header>
-        <h1> Welcome to my site!</h1>
-    </header>
-
+    
     <!--Navigation class containing hyperlinks to different pages-->
     <nav class="menu">
         <ul>
             <li><a href="index.html">Home</a></li>
-            <li><a href="#about.html">About</a></li>
-            <li><a href="#projects.html">Projects</a></li>
-            <li><a href="#contact.html">Contact</a></li>
+            <li><a href="about.html">About</a></li>
+            <li><a href="projects.html">Projects</a></li>
+            <li><a href="contact.html">Contact</a></li>
 
         </ul>
     </nav>
 
-    <a href="/your-folder/document.pdf" download>Download PDF</a>
+    <header>
+        <h1> About </h1>
+    </header>
+
+    <main>
+        <section id="about">
+            <h2>About Me</h2>
+            <p>[EDIT] I'm an Electrical Engineering grad who has a passion for tech and design.</p>
+
+            <h3>Skills</h3>
+            <ul>
+                <li>Embedded Systems</li>
+                <li>C/C++</li>
+                <li>ROS 2</li>
+                <li>PCB Design</li>
+            </ul>
+
+            <h3>Resume</h3>
+            <!--Embedded pdf link to display and referenced -->
+            <embed src="documents/Matthew_Grant_Resume_May_2026.pdf" type="application/pdf" width="100%" height="600px">
+            <a href="/documents/Matthew_Grant_Resume_May_2026.pdf" download>Grab a copy of my resume!</a>
+        </section>
+    </main>
 
     <footer>
         <p>&copy; 2026 Matthew Grant</p>
